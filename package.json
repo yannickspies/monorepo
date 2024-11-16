@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-shadcn-ui",
+  "name": "yannickspies/monorepo",
   "version": "1.5.1",
   "private": true,
   "license": "MIT",
@@ -8,11 +8,11 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "ui": "pnpm --filter @repo/ui ui"
+    "ui": "pnpm --filter @yannickspies/ui ui"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@yannickspies/eslint-config": "workspace:*",
+    "@yannickspies/typescript-config": "workspace:*",
     "prettier": "catalog:",
     "turbo": "2.1.1"
   },

@@ -9,15 +9,15 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
+    "@yannickspies/ui": "workspace:*",
     "next": "14.2.8",
     "react": "catalog:react18",
     "react-dom": "catalog:react18"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "14.2.8",
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@yannickspies/eslint-config": "workspace:*",
+    "@yannickspies/typescript-config": "workspace:*",
     "@types/eslint": "catalog:",
     "@types/node": "catalog:",
     "@types/react": "catalog:react18",

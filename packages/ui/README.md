@@ -1,1 +1,1 @@
-# `@repo/ui`
+# `@yannickspies/ui`
